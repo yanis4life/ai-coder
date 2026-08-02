@@ -1,4 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">kakarot</string>
+    <string name="app_name">Visual Web Builder</string>
+
+    <string name="nav_canvas">Canvas</string>
+    <string name="nav_templates">Templates</string>
+    <string name="nav_export">Export</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_cut">Cut</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_bring_to_front">Bring to Front</string>
+    <string name="action_send_to_back">Send to Back</string>
+    <string name="action_bring_forward">Bring Forward</string>
+    <string name="action_send_backward">Send Backward</string>
+    <string name="action_save">Save</string>
+    <string name="action_export">Export</string>
+    <string name="action_preview">Preview</string>
+    <string name="action_play">Play</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+
+    <string name="palette_title">HTML Elements</string>
+    <string name="component_heading">Heading</string>
+    <string name="component_paragraph">Paragraph</string>
+    <string name="component_span">Span</string>
+    <string name="component_button">Button</string>
+    <string name="component_input">Input</string>
+    <string name="component_textarea">Textarea</string>
+    <string name="component_image">Image</string>
+    <string name="component_card">Card</string>
+    <string name="component_flex_row">Flex Row</string>
+    <string name="component_flex_column">Flex Column</string>
+    <string name="component_grid">Grid</string>
+    <string name="component_scroll_container">Scroll Container</string>
+    <string name="component_list">List</string>
+    <string name="component_carousel">Carousel</string>
+    <string name="component_select">Select</string>
+    <string name="component_checkbox">Checkbox</string>
+    <string name="component_radio">Radio</string>
+    <string name="component_toggle">Toggle</string>
+    <string name="component_progress">Progress</string>
+    <string name="component_link">Link</string>
+    <string name="component_nav">Nav</string>
+    <string name="component_header">Header</string>
+    <string name="component_footer">Footer</string>
+    <string name="component_section">Section</string>
+    <string name="component_form">Form</string>
+
+    <string name="properties_title">Properties</string>
+    <string name="properties_text">Text</string>
+    <string name="properties_background">Background</string>
+    <string name="properties_dimensions">Dimensions</string>
+    <string name="properties_padding">Padding</string>
+    <string name="properties_margin">Margin</string>
+    <string name="properties_corners">Corners</string>
+    <string name="properties_elevation">Box Shadow</string>
+    <string name="properties_rotation">Rotation</string>
+    <string name="properties_alpha">Opacity</string>
+    <string name="properties_scale">Scale</string>
+    <string name="properties_visibility">Visibility</string>
+    <string name="properties_animation">Animation</string>
+    <string name="properties_constraints">Layout</string>
+
+    <string name="text_content">Content</string>
+    <string name="text_font_family">Font Family</string>
+    <string name="text_size">Font Size</string>
+    <string name="text_color">Text Color</string>
+    <string name="text_style">Text Style</string>
+    <string name="text_style_bold">Bold</string>
+    <string name="text_style_italic">Italic</string>
+    <string name="text_style_underline">Underline</string>
+
+    <string name="bg_solid_color">Solid Color</string>
+    <string name="bg_gradient">Gradient</string>
+    <string name="bg_image">Image</string>
+    <string name="bg_gradient_start">Start Color</string>
+    <string name="bg_gradient_end">End Color</string>
+    <string name="bg_gradient_orientation">Orientation</string>
+
+    <string name="dim_width">Width</string>
+    <string name="dim_height">Height</string>
+    <string name="dim_min_width">Min Width</string>
+    <string name="dim_min_height">Min Height</string>
+    <string name="dim_match_parent">100%</string>
+    <string name="dim_wrap_content">auto</string>
+
+    <string name="visibility_visible">Visible</string>
+    <string name="visibility_invisible">Hidden</string>
+    <string name="visibility_gone">None</string>
+
+    <string name="anim_fade_in">Fade In</string>
+    <string name="anim_fade_out">Fade Out</string>
+    <string name="anim_slide_up">Slide Up</string>
+    <string name="anim_slide_down">Slide Down</string>
+    <string name="anim_slide_left">Slide Left</string>
+    <string name="anim_slide_right">Slide Right</string>
+    <string name="anim_bounce">Bounce</string>
+    <string name="anim_pulse">Pulse</string>
+    <string name="anim_shake">Shake</string>
+    <string name="anim_rotate">Rotate</string>
+    <string name="anim_zoom_in">Zoom In</string>
+    <string name="anim_zoom_out">Zoom Out</string>
+    <string name="anim_flip_x">Flip X</string>
+    <string name="anim_flip_y">Flip Y</string>
+
+    <string name="anim_duration">Duration (ms)</string>
+    <string name="anim_delay">Delay (ms)</string>
+    <string name="anim_interpolator">Easing</string>
+    <string name="anim_repeat_count">Repeat Count</string>
+    <string name="anim_repeat_mode">Repeat Mode</string>
+    <string name="anim_repeat_restart">Restart</string>
+    <string name="anim_repeat_reverse">Reverse</string>
+    <string name="anim_sequence">Sequence</string>
+    <string name="anim_parallel">Parallel</string>
+
+    <string name="templates_title">Templates</string>
+    <string name="templates_login">Login</string>
+    <string name="templates_signup">Signup</string>
+    <string name="templates_dashboard">Dashboard</string>
+    <string name="templates_profile">Profile</string>
+    <string name="templates_settings">Settings</string>
+    <string name="templates_chat">Chat</string>
+    <string name="templates_ecommerce">E-Commerce</string>
+    <string name="templates_news">News</string>
+    <string name="templates_onboarding">Onboarding</string>
+    <string name="templates_forms">Forms</string>
+    <string name="templates_nav_drawer">Sidebar Nav</string>
+    <string name="templates_bottom_nav">Top Nav</string>
+
+    <string name="export_html">Export HTML/CSS/JS</string>
+    <string name="export_kotlin">Export JavaScript</string>
+    <string name="export_bundle">Export Bundle</string>
+    <string name="export_figma">Export to Figma</string>
+    <string name="export_share">Share Project</string>
+    <string name="export_history">Export History</string>
+
+    <string name="dialog_delete_title">Delete Element</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this element?</string>
+    <string name="dialog_new_project">New Project</string>
+    <string name="dialog_project_name">Project Name</string>
+    <string name="dialog_rename">Rename</string>
+
+    <string name="msg_saved">Project saved</string>
+    <string name="msg_exported">Exported successfully</string>
+    <string name="msg_copied">Copied to clipboard</string>
+    <string name="msg_deleted">Element deleted</string>
+    <string name="msg_no_selection">No element selected</string>
+    <string name="msg_undo_empty">Nothing to undo</string>
+    <string name="msg_redo_empty">Nothing to redo</string>
+    <string name="msg_export_failed">Export failed</string>
+    <string name="msg_permission_denied">Permission denied</string>
+    <string name="msg_voice_prompt">Speak now...</string>
+
+    <string name="device_phone_small">Phone Small</string>
+    <string name="device_phone_medium">Phone Medium</string>
+    <string name="device_phone_large">Phone Large</string>
+    <string name="device_tablet_7">Tablet 7"</string>
+    <string name="device_tablet_10">Tablet 10"</string>
+
+    <string name="voice_command_title">Voice Command</string>
+    <string name="voice_command_hint">Try: \"Add button with text Submit\"</string>
+
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_rtl">RTL Support</string>
+    <string name="settings_grid">Show Grid</string>
+    <string name="settings_snap">Snap to Grid</string>
+    <string name="settings_autosave">Auto-save</string>
 </resources>

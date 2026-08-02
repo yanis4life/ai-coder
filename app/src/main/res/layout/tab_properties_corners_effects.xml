@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchRoundAllCorners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Round all corners" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Top Left"
+            android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderCornerTopLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0"
+            android:valueTo="100"
+            android:stepSize="1" />
+
+        <LinearLayout
+            android:id="@+id/layoutIndividualCorners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Top Right"
+                android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+            <com.google.android.material.slider.Slider
+                android:id="@+id/sliderCornerTopRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:valueFrom="0"
+                android:valueTo="100"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Bottom Left"
+                android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+            <com.google.android.material.slider.Slider
+                android:id="@+id/sliderCornerBottomLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:valueFrom="0"
+                android:valueTo="100"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Bottom Right"
+                android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+            <com.google.android.material.slider.Slider
+                android:id="@+id/sliderCornerBottomRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:valueFrom="0"
+                android:valueTo="100"
+                android:stepSize="1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/colorOutlineVariant" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/properties_elevation"
+            android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderElevation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0"
+            android:valueTo="50"
+            android:stepSize="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/properties_rotation"
+            android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderRotation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="-180"
+            android:valueTo="180"
+            android:stepSize="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/properties_alpha"
+            android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderAlpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0"
+            android:valueTo="1"
+            android:stepSize="0.05" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/properties_scale"
+            android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderScaleX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0.5"
+            android:valueTo="2"
+            android:stepSize="0.05" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderScaleY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0.5"
+            android:valueTo="2"
+            android:stepSize="0.05" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/colorOutlineVariant" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/properties_visibility"
+            android:textAppearance="?attr/textAppearanceLabelMedium" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleGroupVisibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:singleSelection="true">
+
+            <Button
+                android:id="@+id/btnVisible"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/visibility_visible" />
+
+            <Button
+                android:id="@+id/btnInvisible"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/visibility_invisible" />
+
+            <Button
+                android:id="@+id/btnGone"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/visibility_gone" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_canvas">
+
+    <fragment
+        android:id="@+id/nav_canvas"
+        android:name="com.uibuilder.app.presentation.canvas.CanvasFragment"
+        android:label="@string/nav_canvas" />
+
+    <fragment
+        android:id="@+id/nav_templates"
+        android:name="com.uibuilder.app.presentation.templates.TemplatesFragment"
+        android:label="@string/nav_templates" />
+
+    <fragment
+        android:id="@+id/nav_export"
+        android:name="com.uibuilder.app.presentation.export.ExportFragment"
+        android:label="@string/nav_export" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.uibuilder.app.presentation.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+</navigation>
